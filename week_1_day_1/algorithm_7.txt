@@ -1,0 +1,12 @@
+algorithm_7
+addition of n even numbers
+step1:start
+step2:read the integer num value
+step3:initialize the sum<--0 and i<--2 and count<--0
+step4:repeatedly execute 4.1 and 4.2,4.3 untill(count<=num)
+         4.1:if(i%2==0) 
+              sum<---sum+i
+    	   4.2:i<-----i+2
+	   4.3:count<---count+1
+step5:print"sum of even numbers"
+step6:end

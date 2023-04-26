@@ -1,0 +1,10 @@
+algorithm_5
+factorial of positive integer
+step1:start
+step2:read the num value
+step3:initialize the fact<--1 and i<--1
+step4:repeatedly execute 4.1 and 4.2 untill(num>=i)
+	4.1:fact<--fact*i
+	4.2:i<-----i+1
+step5:print"fact"
+step6:end

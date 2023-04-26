@@ -1,0 +1,13 @@
+algorithm_6
+
+multiplication of n odd numbers
+step1:start
+step2:read the integer num value
+step3:initialize the mul<--1 and i<--1 and count<--0
+step4:repeatedly execute 4.1 and 4.2,4.3 untill(count<=num)
+         4.1:if(i%2==1) 
+              mul<---mul*i
+    	   4.2:i<-----i+2
+	   4.3:count<---count+1
+step5:print" mul of odd numbers"
+step6:end

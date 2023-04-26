@@ -1,0 +1,8 @@
+algorithm_1
+
+area of rectangular
+step1:start
+step2:read length and breadth values
+step3:calculate the are using formula area<--- (length*breadth)
+step4:print"area"
+step5:end

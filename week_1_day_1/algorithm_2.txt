@@ -1,0 +1,12 @@
+algorithm_2
+
+swaping of two numbers with temp varible
+step1:start
+step2:read the num1 num2 values
+step3:initialize the temp<--0
+step4:swap the values of varibles as follow steps 4.1,4.2 and 4.3
+      4.1:temp<---num1
+	4.2:num1<---num2
+	4.3:num2<---temp
+step5:print"num1 and num2"
+step6:end

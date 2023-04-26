@@ -1,0 +1,12 @@
+algorithm_8
+count of positive integer factors
+
+step1:start
+step2:read the integer num value
+step3:initialize the count=0,i=1
+step4:repeatedly execute the  4.1 and 4.2 untill(i<=num)
+      (4.1)if(n%i==0)
+	       count=count+1
+      (4.2) i=i+1
+step5:print"count"
+step6:end

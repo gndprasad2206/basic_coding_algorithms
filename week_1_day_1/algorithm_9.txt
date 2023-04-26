@@ -1,0 +1,14 @@
+algorithm_9
+check given positive integer prime or not
+step1:start
+step2: read the integer num value
+step3:initialize count=0 and i=1
+step4:repetedly execute 4.1 and 4.2 untill(i<=num)
+      4.1 if(n%i==0) then
+             count=count+1
+      4.2 i<--i+1
+step5:if(count==2) then
+        print"given num prime"
+      else
+        print"given num not prime"
+step6:end

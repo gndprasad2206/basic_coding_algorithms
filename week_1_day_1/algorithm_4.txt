@@ -1,0 +1,16 @@
+algorithm_4
+biggest of three numbers
+step1:start
+step2:read the num1,num2 and num3 values
+step3:initialize max<---num1
+step4:check the num2>max 
+      4.1:if it is true max<---num2
+      4.2:if it is false dont chage the max value
+step5:check the num3>max
+	5.1:if it is true max<---num3
+	5.1:if it is false dont chage the max value
+step5:print"max"
+step6:end
+			
+	
+          
