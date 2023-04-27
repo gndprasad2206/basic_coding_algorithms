@@ -1,0 +1,15 @@
+algorithm_4
+check given number perfect number or not
+
+step1:start
+step2:read the num value
+step3:initialize the sum<--0,i<--1
+step4:repeatedly execute the 4.1,4.2 untill(num>i)
+	4.1:if(num%i==0) then
+		sum<--sum+i
+	4.2:i<--i+1
+step5:if(sum==num)then
+		print"given number is a perfect number"
+	else
+		print"giving number is not a perfect number"
+step6:end 

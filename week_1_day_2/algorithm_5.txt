@@ -1,0 +1,19 @@
+algorithm_5
+minimumm number of notes from the ATM
+step1:start
+step2:read the amount value
+step3:initiate the count_1=0,count_2=0 and count_3=0
+step4:if 
+	
+
+
+
+amount=int(input("enter the amount"))
+five_hun_notes=amount//500
+two_hun_notes=((amount-(five_hun_notes*500))//200)
+one_hun_notes=((amount-((two_hun_notes*200)+(five_hun_notes*500)))//100)
+#min_notes=(five_hun_notes+two_hun_notes+one_hun_notes)
+print(five_hun_notes)
+print(two_hun_notes)
+print(one_hun_notes)
+print("the total number of minimum notes:",five_hun_notes+two_hun_notes+one_hun_notes)

@@ -1,0 +1,12 @@
+algorithm_3
+
+reverse of positive integer
+step1:start
+step2:read the num value
+step3:initialize the reversel<---0, duplicate<---num
+step4:repeatedly execute 4.1,4.2 and 4.3 whenever(duplicate!=0)
+	4.1:digit<--duplicate%10
+	4.2:reversel<--reversel*10+digit
+	4.3:duplicate<---duplicate//10
+step5:print"reversel"
+step6:end

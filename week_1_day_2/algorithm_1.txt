@@ -1,0 +1,12 @@
+algorithm_1
+sum of digits in positive integer
+
+step1:start
+step2:read the num value
+step3:initialize sum<--0 
+step4:repeatedly execute 4.1,4.2 and 4.3 whenever(num!=0)
+      4.1 rem<--num%10
+	4.2 sum<--sum+rem
+	4.3 num<--num//10
+step5:print"sum"
+step6:end

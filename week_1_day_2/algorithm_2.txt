@@ -1,0 +1,15 @@
+algorithm_2
+armstrong number or not
+step1:start
+step2:read the num value
+step3:initialize the sum<--0 and dup<--num
+step4:repeatedly execute the 4.1,4.2,4.3 and 4.4 whenever(dup!=0)
+	4.1:rem<--dup%10
+	4.2:qube<--rem**3
+	4.3:sum<---sum+qube
+	4.4:dup<---dup//10
+step5:if(sum==num)
+		print"the number is armstrong number"
+	else
+		print"the number is not a armstrong number"
+step6:end
