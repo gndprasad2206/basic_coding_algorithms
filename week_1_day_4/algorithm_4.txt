@@ -1,0 +1,9 @@
+algorithm_4
+strt
+  step1:for(i=100,i<=150,i++){
+		if(i%4==0){
+               print"i"
+		}
+	  }  
+     
+end

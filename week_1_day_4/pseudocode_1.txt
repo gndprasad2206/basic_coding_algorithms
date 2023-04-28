@@ -1,0 +1,38 @@
+pseudocode_1
+begin
+ numeric float previous_units,present_units,units,GST,bill_amount;
+ print"enter the previous units"
+ input previous_units
+ print"enter the present units"
+ input present_units
+ units=previous_units-present_units
+   if(units==0){
+       print"pay meter charges only 50 rupees"
+   }
+   else if(units<=50){
+       bill_amount=units*2.30
+       print"bill amount with out GST",bill_amount"
+       
+   }
+   else if(units<=150){
+       bill_amount=(50*2.30)+((units-50)*2.75)
+       print"bill amount with out GST",bill_amount"
+       
+   }
+   else if(units<=250){
+       bill_amount=(50*2.30)+((100*2.75)+(units-150)*3.50)
+       print"bill amount with out GST",bill_amount"
+      
+   }
+   else{
+       bill_amount=(50*2.30)+(100*2.75)+(100*3.50)+((units-250)*4.50)
+       print"bill amount with out GST",bill_amount"
+       }
+    bill_amount=bill_amount*0.18
+    print"bill amount with GST",bill_amount
+
+end
+
+
+ 
+ 
