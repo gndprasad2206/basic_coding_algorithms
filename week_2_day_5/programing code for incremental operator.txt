@@ -1,0 +1,14 @@
+//programing code for incremental and decremental operator
+import java.util.Scanner;
+class IncAndDecOperator{
+  public static void main(String[] args){
+    int value1,value2;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter the value 1");
+    value1=sc.nextInt();
+    value2=value1++;
+    System.out.println("value1 ="+value1);
+    System.out.println("value2 ="+value2);
+    
+  }
+}

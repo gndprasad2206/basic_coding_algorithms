@@ -1,0 +1,19 @@
+//program for different data type input
+import java.util.Scanner;
+class Example_2{
+  public static void main(String[] args){
+    String name;
+    int age;
+    float percentage;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the name of the person");
+    name= sc.nextLine();
+    System.out.println("name ="+name);
+    System.out.println("Enter the age of the person");
+    age=sc.nextInt();
+    System.out.println("age ="+age);
+    System.out.println("Enter the percentage of the person");
+    percentage=sc.nextFloat();
+    System.out.println("percentage ="+percentage);
+  }
+}

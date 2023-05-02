@@ -1,0 +1,14 @@
+//program for area calculation
+import java.util.Scanner;
+class AreaCalculation
+{
+  public static void main(String[] args)
+  {
+    float length,breadth,area;
+    System.out.println("enter the values of length and breadth");
+    Scanner sc=new Scanner(System.in);
+    length=sc.nextFloat();
+    breadth=sc.nextFloat();
+    System.out.println("Area of the rectangular ="  +(length*breadth));
+  }
+}

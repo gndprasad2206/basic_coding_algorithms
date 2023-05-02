@@ -1,0 +1,17 @@
+//simple interest calculation program
+import java.util.Scanner;
+class SimpleInterest
+{
+  public static void main(String[] args)
+  {
+    float principle,rate_Of_Interest,years,simple_Interest;
+    Scanner sc= new Scanner(System.in);
+    System.out.println("enter the principle amount");
+    principle=sc.nextFloat();
+    System.out.println("enter the rate of interest");
+    rate_Of_Interest=sc.nextFloat();
+    System.out.println("enter the number of years");
+    years=sc.nextFloat();
+    System.out.println("the simple interest  ="+ (principle*rate_Of_Interest*years));
+  }
+}

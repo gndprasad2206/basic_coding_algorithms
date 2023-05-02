@@ -1,0 +1,19 @@
+//swapping of two numbers program
+import java.util.Scanner;
+class Swapping{
+  public static void main(String[] args)
+  {
+    float number1,number2;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the number1 and number2 values");
+    number1=sc.nextFloat();
+    number2=sc.nextFloat();
+    number1= number1+number2;
+    number2=number1-number2;
+    number1=number1-number2;
+    System.out.println("values after the swapping");
+    System.out.println("number1 ="+number1);
+    System.out.println("number2 ="+number2);
+  }
+
+}

@@ -1,0 +1,21 @@
+//Example program on logica operation
+import java.util.Scanner;
+class Example_3
+{
+  public static void main(String[] args)
+  {
+    int income,age;
+    Scanner sc= new Scanner(System.in);
+    System.out.println("Enter the income and age values");
+    income= sc.nextInt();
+    age= sc.nextInt();
+    if(income>=50000 && age>=20)
+    {
+      System.out.println("Both the conditions are true");
+    }
+    else
+    {
+      System.out.print("any one of the condition was false");
+    }
+  }
+}

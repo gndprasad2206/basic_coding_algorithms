@@ -1,0 +1,15 @@
+//program on incrementing value by 5 using assignment operator
+import java.util.Scanner;
+class AssignOperator
+{
+  public static void main(String[] args)
+  {
+    int value;
+    Scanner sc= new Scanner(System.in);
+    System.out.println("Enter the value");
+    value=sc.nextInt();
+    System.out.println("Before using assignment operator the value is  ="+value);
+    value+=5;
+    System.out.println("After using assignment operator the value is  ="+value);
+  }
+}
