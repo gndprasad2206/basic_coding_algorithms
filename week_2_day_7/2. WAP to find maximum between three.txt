@@ -1,0 +1,20 @@
+//2. WAP to find maximum between three numbers.
+import java.util.Scanner;
+class MaxOfThree{
+  public static void main(String[] args){
+    float number_1,number_2,number_3,max;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter the number_1,number_2 and number_3 values");
+    number_1=sc.nextFloat();
+    number_2=sc.nextFloat();
+    number_3=sc.nextFloat();
+    max=number_1;
+    if(number_2>max){
+      max=number_2;
+      if(number_3>max){
+        max=number_3;
+      }
+    }
+    System.out.println("maximum of three is ="+max);
+  }
+}

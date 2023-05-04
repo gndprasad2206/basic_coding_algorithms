@@ -1,0 +1,26 @@
+uppercase or lowercase
+//10. WAP to check whether a character is uppercase or lowercase     alphabet.
+import java.util.Scanner;
+class Upper_Lower{
+  public static void main(String[] args){
+    char c;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the Alphabet");
+    c=sc.next().charAt(0);
+    if((c>='a')&&(c<='z')||(c>='A')&&(c<='z'))
+    {
+      if((c>='a')&&(c<='z'))
+      {
+        System.out.println("The giver Alphabet is lowercase");
+      }
+      else
+      {
+        System.out.println("The giver Alphabet is uppercase");
+      }
+    }
+    else
+    {
+      System.out.println("Enter the Alpabets only");
+    }
+  }
+}

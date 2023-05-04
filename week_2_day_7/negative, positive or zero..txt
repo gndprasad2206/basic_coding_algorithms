@@ -1,0 +1,22 @@
+negative, positive or zero.
+//3. WAP to check whether a number is negative, positive or zero.
+import java.util.Scanner;
+class positiveOrNegative
+{
+   public static void main(String[] args)
+  {
+    float number;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the number");
+    number=sc.nextFloat();
+    if(number==0){
+      System.out.println("the entered number is zero");
+    }
+    else if(number>0){
+      System.out.print("The given number is positive ="+number);
+    }
+    else{
+      System.out.print("The given number is negative ="+number);
+    }
+  }
+}
