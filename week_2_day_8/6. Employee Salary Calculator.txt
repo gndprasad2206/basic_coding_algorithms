@@ -1,0 +1,39 @@
+/*6. Employee Salary Calculator: Create an application that takes an employee's salary and calculates their annual salary, tax and net salary. Use conditional statements to determine the tax bracket and calculate the tax accordingly.
+Income tax slabs (In Rs)	Income tax rate (%)
+Between 0 and 3,00,000	             0
+Between 3,00,001  and 6,00,000	       5%
+Between 6,00,001  and 9,00,000	       10%   
+Between 9,00,001  and 12,00,000        15%
+Between 12,00,001 and 15,00,000        20%
+above 15,00,001                        30%*/
+import java.util.Scanner;
+class Salary_1{
+  public static void main(String[] args){
+    float monthly_Salary,annual_Salary;
+    float tax_Amount=0;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the monthly salary");
+    monthly_Salary=sc.nextFloat();
+    annual_Salary=monthly_Salary*12;
+    System.out.println("Annual salary of the employee ="+annual_Salary);
+    if(annual_Salary<=300000){
+      System.out.println("No need to pay tax");
+    }
+    else if(annual_Salary<=600000){
+      tax_Amount=((annual_Salary-300000)*(float)0.05);
+    }
+    else if(annual_Salary<=900000){
+      tax_Amount=((annual_Salary-600000)*(float)0.1)+15000;
+    }
+    else if(annual_Salary<=1200000){
+      tax_Amount=((annual_Salary-900000)*(float)0.15)+45000;
+    }
+    else if(annual_Salary<=1500000){
+      tax_Amount=((annual_Salary-1200000)*(float)0.2)+90000;
+    }
+    else{
+      tax_Amount=((annual_Salary-1500000)*(float)0.3)+150000;
+    }
+    System.out.println("For the annual amount of "+annual_Salary+ " tax is =" +tax_Amount);
+  }
+}

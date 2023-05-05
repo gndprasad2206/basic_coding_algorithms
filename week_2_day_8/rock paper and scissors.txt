@@ -1,0 +1,37 @@
+rock paper and scissors
+// Program to decide winner for rock paper and scissors game
+//1. Rock 2. Paper 3. Scissor
+import java.util.*;
+public class Game_2
+  {
+    public static void main(String[] ar)
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter player 1 move");
+      int move_1=sc.nextInt();
+      System.out.println("Enter player 2 move");
+      int move_2=sc.nextInt();
+      if(((move_1>=1)&&(move_1<=3))&&((move_2>=1)&&(move_2<=3))){
+        if(move_1==move_2)
+        {
+          System.out.println("The game is a draw match");
+        }
+        else if(((move_1==1)&&(move_2==2)))
+        {
+          System.out.println("player two wins");
+        }
+        else if(((move_1==2)&&(move_2==1))||((move_1==2)&&(move_2==3))||((move_1==3)&&(move_2==1))){
+          System.out.println("player one wins");
+        }
+        else if(((move_1==1)&&(move_2==2))||((move_1==3)&&(move_2==2))||((move_1==1)&&(move_2==3))){
+          System.out.println("player two wins");
+        }
+      }
+      else{
+        System.out.println("Enter a valid move only");
+      }
+    }
+  }
+
+      
+   

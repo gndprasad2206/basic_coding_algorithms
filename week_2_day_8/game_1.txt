@@ -1,0 +1,52 @@
+game_1
+import java.util.Scanner;
+class Game_1{
+  public static void main(String[] args){
+    int player_1_Move,player_2_Move;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the player one move");
+    player_1_Move=sc.nextInt();
+    System.out.println("Enter the player two move");
+    player_2_Move=sc.nextInt();
+    if(((player_1_Move>=1)&&(player_1_Move<=3))&&((player_2_Move>=1)&&(player_2_Move<=3))){
+      switch(player_1_Move+player_2_Move){
+        case 2:
+          System.out.print("The game was tie");
+          break;
+        case 3:
+          if((player_1_Move==2)&&(player_2_Move==1)){
+            System.out.print("The player one is winner");
+          }
+          else{
+             System.out.print("The player two is winner");
+          }
+          break;
+        case 4:
+          if((player_1_Move==2)&&(player_2_Move==2)){
+            System.out.print("The game was tie");
+          }
+          else if((player_1_Move==1)&&(player_2_Move==3)){
+            System.out.print("The player one is winner");
+          }
+          else{
+            System.out.print("The player two is winner");
+          }
+          break;
+        case 5:
+          if((player_1_Move==3)&&(player_2_Move==2)){
+            System.out.print("The player one is winner");
+          }
+          else{
+            System.out.print("The player two is winner");
+          }
+          break;
+        case 6:
+           System.out.print("The game was tie");
+          break;
+      }
+    }
+    else{
+      System.out.print("Enter the valid move");
+    }
+  }
+}
