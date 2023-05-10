@@ -1,0 +1,24 @@
+squar,absolute
+//write a java program to read two integers and calculate absolute value ,square root of two integers
+import java.util.Scanner;
+import java.lang.Math;
+class Squar{
+  public static void main(String[] args){
+    int number_1,number_2,abs_value_1=0,abs_value_2=0;
+    double squ_value_1=0,squ_value_2=0;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the number_1");
+    number_1=sc.nextInt();
+    System.out.println("Enter the number_2");
+    number_2=sc.nextInt();
+    abs_value_1 = Math.abs(number_1);
+    abs_value_2 = Math.abs(number_2);
+    squ_value_1= Math.sqrt(number_1);
+    squ_value_2= Math.sqrt(number_2);
+    System.out.println("absolute value_1 ="+abs_value_1);
+    System.out.println("absolute value_2 ="+abs_value_2);
+    System.out.println("Square root value_1 ="+squ_value_1);
+    System.out.println("Square root value_2 ="+squ_value_2);
+  }
+}
+    

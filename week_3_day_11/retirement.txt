@@ -1,0 +1,15 @@
+retirement
+//Write a Java program that prompts the user to enter their age and prints out the number of years left until they can retire (assuming retirement age is 65)
+import java.util.Scanner;
+import java.lang.Math;
+import java.math.BigInteger;
+class Retirement{
+  public static void main(String[] args){
+    int age,a=65,retirement=0;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the age");
+    age=sc.nextInt();
+    retirement=a-age;
+    System.out.println("the person will be retired with in "+retirement+" years");
+  }
+}    

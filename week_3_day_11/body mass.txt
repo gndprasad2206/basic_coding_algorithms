@@ -1,0 +1,31 @@
+body mass
+/*Write a Java program that prompts the user to enter their weight in kilograms and height in meters, and calculates their body mass index (BMI) using conditional statements and you need to print underweight,healthy ,overweight and obessity according to the following
+    bmi <18                underweight
+    bmi >=18 and bmi<25    healthy
+    bmi>=25 and bmi<30     overweight
+    bmi>=30                obessity  */
+import java.util.Scanner;
+import java.lang.Math;
+class Body_Mass_Index{
+  public static void main(String[] args){
+    double weight,height,body_Mass;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the weight in kilograms");
+    weight=sc.nextDouble();
+    System.out.println("Enter the height in meters");
+    height=sc.nextDouble();
+    body_Mass=weight/(Math.pow(height,2.0));
+    if(body_Mass>18){
+      System.out.print("underweight");
+    }
+    else if(body_Mass<25){
+      System.out.print("healthy");
+    }
+    else if(body_Mass<30){
+      System.out.print("overweight");
+    }
+    else{
+      System.out.print("obessity");
+    }
+  }
+}
