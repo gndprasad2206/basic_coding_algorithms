@@ -1,0 +1,24 @@
+all Occurence 
+//WAP to search all occurrences of a character in given string.
+import java.util.Scanner;
+class All_Occurrence{
+  public void occurence(String s1,char ch){
+    for(int i=0;i<s1.length();i++){
+      if(ch==s1.charAt(i)){
+        System.out.println("The charecter "+ch+" in the index of:"+i);
+      }
+    }
+  }
+}
+public class All_Occurrence_Main{
+  public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    String str;
+    System.out.println("Enter the string");
+    str=sc.nextLine();
+    System.out.println("Enter the charecter");
+    char ch=sc.next().charAt(0);
+    All_Occurrence call=new All_Occurrence();
+    call.occurence(str,ch);
+  }
+}
