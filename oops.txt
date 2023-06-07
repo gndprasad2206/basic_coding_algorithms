@@ -1,0 +1,33 @@
+difference detween POP and OOp
+
+1.In pop the data and procedure are diffrent entities but in oop the both data and procedure are Encapsulation.
+
+2.In pop the main program is divided into sub programs and every sub program have its owm procedure, but in oop the every thing is write in objects and classes.
+
+3.In oop the data security is high,But in pop every method can access the data so data security in pop is low.
+
+
+oops
+    •Object-oriented programming lets you extend a program without having to touch previously tested, working code
+
+    Object-oriented programming provides great flexibility, modularity and reusability through encapsulation, inheritance, and polymorphism
+
+Inheritance         
+Polymorphism
+Encapsulation
+Abstraction
+
+1.Inheritance   
+Deriving new classes from existing classes such that the new classes acquire all the features of existing classes is called inheritance
+
+2.Polymorphism
+If one task is performed in different ways, it is known as polymorphism.
+example: to convince the customer differently, to draw something, for example, shape, triangle, rectangle, etc.
+
+3.Abstraction
+Hiding internal details and showing functionality is known as abstraction. 
+Example: phone call, we don't know the internal processing.
+
+4.Encapsulation
+Binding (or wrapping) code and data together into a single unit are known as encapsulation. 
+Example: a capsule, it is wrapped with different medicines.

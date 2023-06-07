@@ -1,0 +1,153 @@
+object:- A real world entity
+object have atributes and property 
+what object do behaviour and method
+identity 
+atribute or property
+property
+
+Online book store.
+object-books
+attributes-name of the book,pages,topic of the book,auother name,
+actions-read,puches,add to cart.
+
+object-user
+attributes-login id and password
+actions-enter details and login, reset the password.
+
+object:-shoping cart
+attributes:-count of books
+actions:-add books, remove the books.
+
+object:-payment 
+attributes:-ATM or payment details.
+action:-online payment.
+
+object:-order status
+attributes:-ordered parcel id.
+actions:-tracks the status,cancle the oreder.
+
+object:-return
+attributes:-order id,payment details
+actions:return the book
+
+
+Employee management.
+
+object:-employs data base
+attributes:-storage capacity,employs details,count of employees
+actions:-search,adding new employ details,deleting employ details,addit employee details.
+
+object:-employ 
+attributes:-designation,tecnical skills,age.
+actions:-prodective working,time management,upskilling him self,doing projects,writing codes.
+
+
+object:-leaves
+attributes:-reasone for leave
+actions:-writing mail
+
+object:-department
+attributes:-name of the department.
+actions:-finding  the employes in that department.
+
+object:-salary
+attributes:-amount
+actions:-payments to employes accounts.
+
+
+library management.
+object:-shelf
+attributes:-books,records,question papers.
+actions:-inserting books,taking the books,adding new books.
+
+object:-entery record
+attributes:-entery persone details like name,time,address.
+actions:-writing details,changing the details.
+
+object:-book
+attributes:-no of pages,name,topic,auother name.
+actions:-read,write,take away,returning the book.
+
+object:-library staff
+attributes:-name,designation,gender,age.
+actions:-entering details of the persone,changing user details,adding books,removing old books.
+
+object:-due records
+attributes:-name of book,user details,books taken date,due amount.
+actions:-paying due amount.
+
+social media
+
+object:-facebook
+attributes:-name,login page,posts,read,write.
+actions:-login,logout,chage password,add new user.
+
+object:-user
+attribute:-name,age,user ID,password,mobile number,gender.
+actions:-login,logout,detail can change
+
+object:-comments
+attributes:-content,count of comments,poositive and negative commets.
+actions:-add comment,delete comment,like comment,dislike comment,modify commment.
+
+object:-likes
+attribute:-likes and dislikes,count of likes.
+actions:-add new like,dislike,remove like.
+
+
+instance variable
+local variable
+static variable
+
+
+local variable 
+
+
+objects are used to call the methods, The objects are created with new operator with the respective class name.
+
+types of variables
+instance variable
+local variable
+static variable
+
+local variable
+local variables are created inside the method,constructor or block. And the local variables are craeted inside the method,constructor or block and destroied after getting control out of the method.
+local vvariables stored in stack memory.
+
+
+instance variable
+instance variable created inside the class out side the method,constructor or block.
+the instance variable means the data for every object is changed but variable name is same.
+the instance variable  copy creates for every object
+instance variable is created when the object is created and it destroied when the object is destroied.
+instance variable stored in heap memory.
+
+static variable 
+static variable created inside the class out side the method,constructor or block.
+static variable creates copy of one.
+static variable is acceseble for all objects in class
+stativ variable stored in method area or class area
+
+how to access instance variable 
+objname.variable name
+
+
+how to access the static variable
+classname.variablename (or) objname.variablename 
+
+
+variables and methods together they called as members
+
+to maniplulate state of the object we use setter and getter methods
+
+method overloading 
+same method name with different parameters data type ,no of parameterts are different
+the method overloading is not achived when we change just return type.
+
+
+/constructors
+//constructor is similar to the method only but there are some differences
+//1. constructor name and classname must match
+//2. constructor don't have the return type
+
+
