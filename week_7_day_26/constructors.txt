@@ -1,0 +1,17 @@
+constructors
+purpose-give the initial values to a instance varibles of a class.
+constructor is called when the object is created
+
+types of constructors
+no-arg constructor
+parameterized constructors
+default constructors
+
+constructor over loading
+
+
+int,float,double,long,boolean,String,char,if,else,else if,for,while,do-while,switch,case.
+
+this keyword
+this keyword is used to refer to the current object inside th method or constructor
+to distinguish beteween local variable and instance variable
